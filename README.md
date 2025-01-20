@@ -67,5 +67,5 @@ NUMBER OF RECORDS: 9
 # Parser/State Machine Implementation
 ![Parser Image](CS8-127.jpg) 
 # Dictionary/B-Plus Tree Implementation
-
+![B-Plus Tree Image](B-Plus-Tree-Diagram.png) 
 # Binary Files Implementation
