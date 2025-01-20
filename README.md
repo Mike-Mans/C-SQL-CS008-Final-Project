@@ -5,7 +5,7 @@
 ```
 select * from TABLE-NAME
 select FIELD-NAME(S) from TABLE-NAME
-select _ from TABLENAME where BOOLEAN-EXPRESSION
+select _ from TABLE-NAME where BOOLEAN-EXPRESSION
 ```
 
 ### Insert (Insert a new entry into an existing table)
