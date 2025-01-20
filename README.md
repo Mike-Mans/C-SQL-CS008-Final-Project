@@ -2,9 +2,7 @@
 
 # Demonstration: 
 ![Query Example 1 With My SQL Implementation](SQL_DEMO_1.gif) 
-<br> <br>
 ![Query Example 2 With My SQL Implementation](SQL_DEMO_2.gif)
-# 
 
 Example Query Output From A Table With 70 Entries
 ```
@@ -47,3 +45,8 @@ NUMBER OF RECORDS: 9
 7:                Archimedes                  0287 BC
 8:                 Aristotle                  0384 BC
 ```
+# Parser/State Machine Implementation
+
+# Dictionary/B-Plus Tree Implementation
+
+# Binary Files Implementation
