@@ -1,7 +1,7 @@
 # C-SQL-CS008-Final-Project
 
 # Demonstration: 
-![The Typing Tutor Game](typingTutorGif.gif)
-![The Typing Tutor Game](typingTutorGif.gif)
+![Query Example 1 With My SQL Implementation](SQL_DEMO_1.gif)
+![Query Example 2 With My SQL Implementation](SQL_DEMO_2.gif)
 # 
 
