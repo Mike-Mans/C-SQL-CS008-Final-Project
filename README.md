@@ -68,6 +68,8 @@ NUMBER OF RECORDS: 9
 ![Parser Image](CS8-127.jpg) 
 
 # Dictionary/B-Plus Tree Implementation
+A B-Plus Tree is a balanced search tree that provides efficient logarithmic search times for desired entries. A B-Plus Tree holds all entries in the bottom layer, known as leaves, and every other node serves as a guide to the entries. A B-Plus Tree is useful for querying because it's leaf nodes are connected, providing swift traversal for sequential data. That is, it provides an fast way to gather all entries that fall in a certain range (within logarithmic search-time). This B-Plus Tree provides the backend for the Dictionary/Multi-Map implementation in this project, with allows for logarithmic search times of key-value pairs. This is necessary when the user prompts a query for a range of entries based on a field-name (eg. the set of all entries that satisfy Aa <= FIRST <= Az). 
 ![B-Plus Tree Image](B-Plus-Tree-Diagram.png) 
+
 # Binary Files Implementation
 Binary files (.bin) are versatile and efficient for storing and retrieving large amounts of data, which is why they are commonly used in databases and as a means to store large amounts of image, video, and audio data. In this project, they are implemented to maximize efficiency of query searches by computing the "jump" to the desired entry, or the number of bytes that must be skipped to reach that desired entry based on the set size of entries. 
