@@ -68,7 +68,7 @@ NUMBER OF RECORDS: 9
 ![Parser Image](CS8-127.jpg) 
 
 # Dictionary/B-Plus Tree Implementation
-A B-Plus Tree is a balanced search tree that provides efficient logarithmic search times for desired entries. A B-Plus Tree holds all entries in the bottom layer, known as leaves, and every other node serves as a guide to the entries. A B-Plus Tree is useful for querying because it's leaf nodes are connected, providing swift traversal for sequential data. That is, it provides an fast way to gather all entries that fall in a certain range (within logarithmic search-time). This B-Plus Tree provides the backend for the Dictionary/Multi-Map implementation in this project, which allows for logarithmic search times of key-value pairs. This is necessary when the user prompts a query for a range of entries based on a field-name (eg. the set of all entries that satisfy Aa <= FIRST <= Az). 
+A B-Plus Tree is a balanced search tree that provides efficient logarithmic search times for desired entries. A B-Plus Tree holds all entries in the bottom layer, known as leaves, and every other node serves as a guide to the entries. A B-Plus Tree is useful for querying because it's leaf nodes are connected, providing swift traversal for sequential data. That is, it provides a very fast way to gather all entries that fall in a certain range. This B-Plus Tree provides the backend for the Dictionary/Multi-Map implementation in this project, which allows for logarithmic search times of key-value pairs. This is necessary when the user prompts a query for a range of entries based on a field-name (eg. the set of all entries that satisfy Aa <= FIRST <= Az). 
 ![B-Plus Tree Image](B-Plus-Tree-Diagram.png) 
 
 # Binary Files Implementation
