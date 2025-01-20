@@ -1,6 +1,7 @@
 # C-SQL-CS008-Final-Project
 
 # Demonstration: 
+GIF Demonstration With Existing Table of Famous Scientists. 
 ![Query Example 1 With My SQL Implementation](SQL_DEMO_1.gif) 
 ![Query Example 2 With My SQL Implementation](SQL_DEMO_2.gif)
 
