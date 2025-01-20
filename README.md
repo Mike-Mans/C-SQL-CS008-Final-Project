@@ -4,7 +4,7 @@
 ![Query Example 1 With My SQL Implementation](SQL_DEMO_1.gif) <br>
 ![Query Example 2 With My SQL Implementation](SQL_DEMO_2.gif)
 # 
-`
+```
 select * from scientists where NATIONALITY = English and LAST >= R or NATIONALITY = Italian and YEAR < 1500 or NATIONALITY = German and YEAR > 1900
 TABLE NAME: scientists-9
 NUMBER OF RECORDS: 4
@@ -43,4 +43,4 @@ NUMBER OF RECORDS: 9
 6:                   Antoine                     1743
 7:                Archimedes                  0287 BC
 8:                 Aristotle                  0384 BC
-`
+```
