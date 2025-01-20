@@ -65,7 +65,7 @@ NUMBER OF RECORDS: 9
 8:                 Aristotle                  0384 BC
 ```
 # Parser/State Machine Implementation
-
+![Parser Image](CS8-127.jpg) 
 # Dictionary/B-Plus Tree Implementation
 
 # Binary Files Implementation
