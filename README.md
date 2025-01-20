@@ -1,7 +1,22 @@
 # C-SQL-CS008-Final-Project
 
+# Overview / Supported Commands
+```
+## Select (Query from an existing table)
+select * from TABLE-NAME
+select FIELD-NAME(S) from TABLE-NAME
+select _ from TABLENAME where BOOLEAN-EXPRESSION
+
+## Insert (Insert a new entry into an existing table)
+insert into TABLE-NAME values VALUES
+
+## Make (Create a new table and specify fields for entries)
+make table TABLE-NAME fields FIELD-NAMES
+
+```
+
 # Demonstration: 
-GIF Demonstration With Existing Table of Famous Scientists. 
+GIF Demonstration With Existing Table of Famous Scientists: <br>
 ![Query Example 1 With My SQL Implementation](SQL_DEMO_1.gif) 
 ![Query Example 2 With My SQL Implementation](SQL_DEMO_2.gif)
 
