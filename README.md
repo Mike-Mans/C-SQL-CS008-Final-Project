@@ -70,3 +70,4 @@ NUMBER OF RECORDS: 9
 # Dictionary/B-Plus Tree Implementation
 ![B-Plus Tree Image](B-Plus-Tree-Diagram.png) 
 # Binary Files Implementation
+Binary files (.bin) are versatile and efficient for storing and retrieving large amounts of data, which is why they are commonly used in databases and as a means to store large amounts of image, video, and audio data. In this project, they are implemented to maximize efficiency of query searches by computing the "jump" to the desired entry, or the number of bytes that must be skipped to reach that desired entry based on the set size of entries. 
