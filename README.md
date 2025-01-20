@@ -65,6 +65,10 @@ NUMBER OF RECORDS: 9
 8:                 Aristotle                  0384 BC
 ```
 # Parser/State Machine Implementation
+A state machine is a computational tool that depends on the process being in one state at a time, and in this program, each state is marked as "success", "fail", or "intermediate". The user types in a command/request, and it is processed by the state machine to determine what the user is trying to accomplish (i.e. create a new table, query a selection, etc.). It begins at the 0th state, which is an intermediate state, and it can only move to the next intermediate state (either 1, 9, or 14) if the next word is either "select", "make", or "insert". This process is repeated until an incorrect value is reached (in which case a "fail" state is triggered and is invalid) or until the entire string is processed. Once the entire string is processeed, it is only valid if it is in a "success" state (the states highlighted in green). If any request is invalid, it is ignored and the user is prompted to enter a different request.
+
+If request is valid, and if the user requests to query a table and provides a boolean expression, then it is processed by a unique shunting yard and reverse polish notation algorithm that handles boolean expressions with field names. The algorthim is dependent on a queue and stack implementation using the processed tokens. The end result of the algorithm is a table that is created from the preexisting table with only the appropriate entries. There is also input validation at this level also to (1) determine if the user has typed in a command that does not exist and (2) determine if the user has typed in an invalid field name (i.e. the user provides a field name of "GENDER" but that is not encapsuled in the table). If an invalid request is issued by the user, the program simply skips over it and prompts the user for a new request. 
+
 ![Parser Image](CS8-127.jpg) 
 
 # Dictionary/B-Plus Tree Implementation
