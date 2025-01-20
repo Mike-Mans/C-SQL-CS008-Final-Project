@@ -23,7 +23,7 @@ GIF Demonstration With Existing Table of Famous Scientists: <br>
 ![Query Example 1 With My SQL Implementation](SQL_DEMO_1.gif) 
 ![Query Example 2 With My SQL Implementation](SQL_DEMO_2.gif)
 
-Example Query Output From A Table With 70 Entries
+Example Query Outputs From A Table Called "scientists" With 70 Entries
 ```
 select * from scientists where NATIONALITY = English and LAST >= R or NATIONALITY = Italian and YEAR < 1500 or NATIONALITY = German and YEAR > 1900
 TABLE NAME: scientists-9
