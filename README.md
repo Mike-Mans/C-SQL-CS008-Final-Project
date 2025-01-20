@@ -1,4 +1,4 @@
-# C-SQL-CS008-Final-Project
+# SQL-CS008-Final-Project
 
 # Overview / Supported Commands
 ### Select (Query from an existing table):
